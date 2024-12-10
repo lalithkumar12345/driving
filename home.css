@@ -1,0 +1,93 @@
+body
+{
+    background: linear-gradient(to right,rgb(164, 148, 146),rgb(126, 171, 143));
+}
+.navbar
+{
+    /* background-color: rgb(98, 160, 160); */
+    
+    background: linear-gradient(to top,rgb(148, 146, 84),rgb(34, 55, 67));
+    height: 40%;
+    /* background:linear-gradient(to top,#816363,#765174); */
+}
+.navdiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30%;
+}
+.logo
+{
+    font-size: 25px;
+    display: inline-block;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo a
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: black;
+    text-decoration: none;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline;
+    height: auto;
+    padding: auto;
+}
+li{
+    list-style: none; display: inline block;
+
+}
+li a{
+    color: rgb(219, 196, 196);
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25px;
+    text-decoration: none;
+}
+button
+{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+button a{
+    color: white;
+    font-weight: bold;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 2;
+    /* margin-top: 100px; */
+    background-color: rgb(104, 162, 162);
+    padding: 10px;
+}
+.footer a{
+    color: white;
+    display: block;
+}
+.footer span {
+    font-size:20px;
+}
+#middle{
+    margin-top: 10px;
+}
+
+.middle-content
+{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10;
+    margin: 10px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: justify;
+}
